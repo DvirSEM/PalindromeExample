@@ -1,0 +1,39 @@
+body {
+  background-color: cyan;
+}
+
+body,
+button {
+  font-family: "arvo";
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black
+}
+
+th {
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atlanta {
+  font-weight: bold;
+  color: red;
+}
+
+.description {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "arvo";
+  src: url("fonts/Arvo-Regular.ttf");
+}
